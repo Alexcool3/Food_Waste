@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodWasteApp", "FoodWasteApp\FoodWasteApp.csproj", "{C5BCE70C-C455-4EE1-9CD7-274DCFC4BD61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodWasteServerApp", "FoodWasteServerApp\FoodWasteServerApp.csproj", "{0BEE153D-2DAC-4DDE-AE38-9F73A06C29A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodWasteClassLibrary", "FoodWasteClassLibrary\FoodWasteClassLibrary.csproj", "{44B276C4-A8CA-47CF-9AB9-75B8355EA550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{C5BCE70C-C455-4EE1-9CD7-274DCFC4BD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5BCE70C-C455-4EE1-9CD7-274DCFC4BD61}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5BCE70C-C455-4EE1-9CD7-274DCFC4BD61}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0BEE153D-2DAC-4DDE-AE38-9F73A06C29A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BEE153D-2DAC-4DDE-AE38-9F73A06C29A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BEE153D-2DAC-4DDE-AE38-9F73A06C29A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BEE153D-2DAC-4DDE-AE38-9F73A06C29A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B276C4-A8CA-47CF-9AB9-75B8355EA550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B276C4-A8CA-47CF-9AB9-75B8355EA550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B276C4-A8CA-47CF-9AB9-75B8355EA550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B276C4-A8CA-47CF-9AB9-75B8355EA550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
