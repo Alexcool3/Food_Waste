@@ -7,6 +7,9 @@
              x:DataType="viewModel:MainViewModel"
              Title="Login Page">
 
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
+    </Shell.BackButtonBehavior>
 
     <ScrollView>
         <VerticalStackLayout

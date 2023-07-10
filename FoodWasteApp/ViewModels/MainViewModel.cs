@@ -36,8 +36,13 @@ namespace FoodWasteApp.ViewModels
             if (!loginResult.IsError)
             {
                 // Redirect to logged in page (Food Categories Page)
-                await Shell.Current.GoToAsync(nameof(FoodInputPage));
+                await Shell.Current.GoToAsync($"///{nameof(FoodInputPage)}", true);
             }
+        }
+
+        private void Current_NavigatedTo(object sender, NavigatedToEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         [RelayCommand]
