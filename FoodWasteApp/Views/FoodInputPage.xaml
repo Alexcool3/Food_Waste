@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FoodWasteApp"
              x:Class="FoodWasteApp.Views.FoodInputPage"
+             xmlns:views="clr-namespace:FoodWasteApp.Views"
+             xmlns:viewModels="clr-namespace:FoodWasteApp.ViewModels"
              Title="Food Categories">
-    <Grid ColumnDefinitions="*"
-          RowDefinitions="*,Auto">
-        <HorizontalStackLayout x:Name="TopHorizontalStackLayout">
-            <Label x:Name="InfoTextLabel"/>
-        </HorizontalStackLayout>
-        <!-- Collection View as a Grid Layout -->
-    </Grid>
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
+    </Shell.BackButtonBehavior>
 </ContentPage>

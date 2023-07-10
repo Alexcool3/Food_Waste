@@ -19,5 +19,17 @@ public partial class MainPage : ContentPage
 	{
 		await mainViewModel.AutomaticLogin();
 	}
+
+    protected override async void OnNavigatedTo(NavigatedToEventArgs args)
+    {
+        await mainViewModel.LoginAsync();
+
+        base.OnNavigatedTo(args);
+    }
+
+    protected override bool OnBackButtonPressed()
+    {
+        return true;
+    }
 }
 

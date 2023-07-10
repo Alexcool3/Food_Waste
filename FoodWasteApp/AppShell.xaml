@@ -5,10 +5,19 @@
     x:Class="FoodWasteApp.AppShell"
     xmlns:local="clr-namespace:FoodWasteApp"
     xmlns:views="clr-namespace:FoodWasteApp.Views"
+    xmlns:viewModels="clr-namespace:FoodWasteApp.ViewModels"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <ShellContent Title="Home"
+                  ContentTemplate="{DataTemplate local:MainPage}"
+                  Route="MainPage"/>
+
+    <TabBar>
+        <Tab Title="Food Categories">
+            <ShellContent Title="Food Categories"
+                          ContentTemplate="{DataTemplate views:FoodInputPage}"
+                          Route="FoodInputPage"
+                          Shell.TabBarIsVisible="True"/>
+        </Tab>
+    </TabBar>
 </Shell>

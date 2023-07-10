@@ -1,9 +1,13 @@
+using FoodWasteApp.ViewModels;
+
 namespace FoodWasteApp.Views;
 
 public partial class FoodInputPage : ContentPage
 {
-	public FoodInputPage()
+	public FoodInputPage(FoodInputViewModel foodInputViewModel)
 	{
 		InitializeComponent();
+
+		BindingContext = foodInputViewModel;
 	}
 }
